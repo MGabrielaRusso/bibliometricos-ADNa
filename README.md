@@ -1,7 +1,8 @@
 # bibliometricos-ADNa
 ## Análisis bibliométricos de artículos publicados sobre ADN antiguo en humanos
 
-Análisis realizado para el trabajo "Asimetrias globales y produccion de conocimientos en los estudios de ADN antiguo en humanos". Autores: Russo M.G., Di Fabio Rocca F., Arencibia V., Bettera Marcat G., Dejean C.B., Avena S., Seldes V.
+Análisis realizado para el trabajo "Asimetrias globales en la produccion de conocimientos de los estudios de ADN antiguo en humanos".
+Autores: Russo M.G., Di Fabio Rocca F., Arencibia V., Bettera Marcat G., Dejean C.B., Avena S., Seldes V.
 
 Código disponible en el archivo [bibliometricos-adna.R](./bibliometricos-adna.R)
 
