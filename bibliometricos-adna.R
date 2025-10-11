@@ -1,4 +1,4 @@
-# Analisis de datos para el trabajo "Asimetrias globales y produccion de conocimientos en los estudios de ADN antiguo en humanos"
+# Analisis de datos para el trabajo "Asimetrias globales en la produccion de conocimientos de los estudios de ADN antiguo en humanos"
 # Russo M.G., Di Fabio Rocca F., Arencibia V., Bettera Marcat G., Dejean C.B., Avena S., Seldes V.
 
 pkgs <- c("bibliometrix", "ggplot2", "ggpubr", "dplyr")
@@ -107,3 +107,4 @@ NetMatrixhum <- biblioNetwork(Mhum_es, analysis = "collaboration", network = "co
 #grafico de la red
 nethum <- networkPlot(NetMatrixhum, n = dim(NetMatrixhum)[1], type = "circle", size=TRUE, remove.multiple=FALSE,labelsize=0.7,cluster="none")
 net2VOSviewer(nethum, vos.path = 'C:/Users/-/Programas/VOSviewer') #path a VOSviewer.jar
+
